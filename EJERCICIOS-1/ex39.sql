@@ -3,4 +3,4 @@
 # en country no veo col language, en countrylanguage si
 
 USE WORLD; # la selecciono
-SELECT * FROM countrylanguage where language='Dutch';
+SELECT * FROM country where language='Dutch';

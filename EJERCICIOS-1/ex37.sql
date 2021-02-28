@@ -3,8 +3,8 @@
 # na tabela empregados (employees) de 'emp' e referencie este nome nos campos da clausula WHERE em
 # conjunto com o nome do campo para realizar o filtro (emp.emp_no).
 
-# CON ERROR AUN (FALTA ESTA 37 y LA 38)
+# CON ERROR AUN (FALTA usar el alias)
 
 USE psdb; # la selecciono
 SELECT * FROM employees as emp;
-SELECT * WHERE emp.emp_nro in(494831,479832,599833,499832) and emp.gender in('M','F');
+SELECT * FROM employees where emp.emp_no in(494831,479832,599833,499832) and emp.gender in('M','F') ;

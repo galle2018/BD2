@@ -8,5 +8,5 @@
 # CON ERROR AUN (FALTA ESTA 37 y LA 38)
 
 USE psdb; # la selecciono
-SELECT * FROM employees as emp;
-SELECT * WHERE emp.emp_nro in(494831,479832,599833,499832) and emp.gender in('M','F');
+SELECT * FROM employees as emp
+WHERE emp.emp_nro in(494831,479832,599833,499832) and emp.gender in('M','F');
