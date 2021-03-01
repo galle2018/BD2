@@ -8,5 +8,10 @@
 # CON ERROR AUN (FALTA ESTA 37 y LA 38)
 
 USE psdb; # la selecciono
-SELECT * FROM employees as emp
-WHERE emp.emp_nro in(494831,479832,599833,499832) and emp.gender in('M','F');
+SELECT emp_no AS "Numero", first_name AS "Nome" FROM employees AS emp 
+WHERE emp.emp_nro IN(494831,479832,599833,499832) AND emp.gender IN('M','F');
+
+# con error en ambos casos
+
+SELECT emp_no AS "Numero", first_name AS "Nome" FROM employees AS emp 
+WHERE emp.emp_no IN (494831, 479832, 599833, 499832) AND (emp.gender BETWEEN "M" AND "F");

@@ -6,5 +6,5 @@
 # CON ERROR AUN (FALTA usar el alias)
 
 USE psdb; # la selecciono
-SELECT * FROM employees as emp;
-SELECT * FROM employees where emp.emp_no in(494831,479832,599833,499832) and emp.gender in('M','F') ;
+SELECT * FROM employees as emp where emp.emp_no in(494831,479832,599833,499832) and emp.gender in('M','F');
+
