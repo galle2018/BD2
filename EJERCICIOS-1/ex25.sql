@@ -2,4 +2,7 @@
 # igual a 'Yinghua' ou igual a 'Elvis' e o sexo (gender) seja igual a 'M'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name='Yinghua' or first_name='Elvis' and gender='M';
+SELECT * FROM employees 
+where first_name='Yinghua' 
+or first_name='Elvis' 
+and gender='M';

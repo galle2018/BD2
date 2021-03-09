@@ -2,4 +2,5 @@
 # contenha no final os seguintes caracteres 'zette'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name LIKE '%zette';
+SELECT * FROM employees 
+where first_name LIKE '%zette';

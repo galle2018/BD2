@@ -2,4 +2,4 @@
 # igual a 'Basil' e o sexo (gender) seja diferente de 'M'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name='Basil' and gender<>'M';
+SELECT * FROM employees where first_name='Basil' and gender<>'M';

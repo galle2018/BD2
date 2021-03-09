@@ -2,4 +2,4 @@
 # (emp_no) seja igual a 14037.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where emp_no=14037;
+SELECT * FROM employees where emp_no=14037;

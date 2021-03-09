@@ -2,4 +2,4 @@
 # registros retornados.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees limit 100;
+SELECT * FROM employees limit 100;

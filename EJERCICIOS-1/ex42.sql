@@ -2,4 +2,12 @@
 # a população seja maior que 96.00.
 
 USE WORLD; # la selecciono
-SELECT * FROM countrylanguage where Language='Spanish' and Percentage>96.00;
+
+SELECT * FROM country 
+
+INNER JOIN countrylanguage
+ON countrylanguage.CountryCode = country.Code
+
+WHERE countrylanguage.Language = 'Spanish' 
+AND countrylanguage.IsOfficial = 'T'
+AND countrylanguage.Percentage > 96;

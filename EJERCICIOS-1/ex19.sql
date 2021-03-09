@@ -2,4 +2,5 @@
 # contenha no início a combinação de caracteres 'Crist'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name LIKE 'Crist%';
+SELECT * FROM employees 
+where first_name LIKE 'Crist%';

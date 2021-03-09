@@ -2,4 +2,6 @@
 # igual a 'Yinghua' ou igual a 'Elvis'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name='Yinghua' or first_name='Elvis';
+SELECT * FROM employees 
+where (first_name='Yinghua' 
+or first_name='Elvis');

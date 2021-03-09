@@ -2,4 +2,4 @@
 # de todos os empregados (employees).
 
 USE psdb; # la selecciono
-SELECT emp_no, first_name FROM psdb.employees;
+SELECT emp_no, first_name FROM employees;

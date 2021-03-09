@@ -2,4 +2,5 @@
 # (last_name) da tabela empregados (employees). Ordene o resultado por first_name e last_name.
 
 USE psdb; # la selecciono
-SELECT DISTINCT first_name, last_name FROM psdb.employees order by first_name, last_name;
+SELECT DISTINCT first_name, last_name FROM employees 
+order by first_name, last_name;

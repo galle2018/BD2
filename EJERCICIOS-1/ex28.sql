@@ -2,4 +2,4 @@
 # 15037 ou 14039 ou 16039.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where emp_no IN(15037,14039,16039);
+SELECT * FROM employees where emp_no IN(15037,14039,16039);

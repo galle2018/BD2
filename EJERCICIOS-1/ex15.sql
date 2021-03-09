@@ -2,4 +2,4 @@
 # igual a 'Basil'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name='Basil';
+SELECT * FROM employees where first_name='Basil';

@@ -2,4 +2,6 @@
 # contenha a combinação de caracteres 'arvi' e o sexo (gender) seja igual a 'M'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name LIKE '%arvi%' and gender='M';
+SELECT * FROM employees 
+where first_name LIKE '%arvi%' 
+and gender='M';

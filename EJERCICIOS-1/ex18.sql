@@ -2,4 +2,8 @@
 # igual a 'Basil', o sobrenome (last_name) igual a 'Strooper' e o sexo (gender) seja igual a 'M'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name='Basil' and last_name='Strooper' and gender='M';
+SELECT * FROM employees 
+where 
+first_name='Basil' 
+and last_name='Strooper' 
+and gender='M';

@@ -8,3 +8,6 @@
 USE psdb; # la selecciono
 SELECT * FROM employees as emp where emp.emp_no in(494831,479832,599833,499832) and emp.gender in('M','F');
 
+#version del profe
+SELECT * FROM employees emp   WHERE  emp.emp_no IN (494831,479832,599833,499832) AND emp.gender IN ('M','F');
+

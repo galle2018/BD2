@@ -5,7 +5,25 @@
 # Selecione apenas os idiomas oficiais e os países que se encontram no continente ‘Europe’.
 
 USE WORLD; # la seleccionocity
-SELECT Name,Continent,Region,Population FROM country;
-SELECT Name,District,Population FROM city;
-SELECT Language FROM countrylanguage;
-SELECT IsOfficial FROM countrylanguage; # falta la parte que se encuentre en Europe
+
+SELECT  
+    country.name, 	
+    country.Continent, 
+    country.Region, 
+    country.Population,
+    city.name city_name, 
+    city.District, 
+    city.Population, 
+    countrylanguage.Language
+    
+FROM country
+
+INNER JOIN city 
+ON city.CountryCode = country.code
+
+INNER JOIN countrylanguage
+ON countrylanguage.CountryCode = country.code 
+
+WHERE country.Continent = 'Europe'
+AND countrylanguage.IsOfficial= 'T';
+

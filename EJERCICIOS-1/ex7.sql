@@ -2,4 +2,4 @@
 # (last_name) da tabela empregados (employees).
 
 USE psdb; # la selecciono
-SELECT DISTINCT first_name, last_name FROM psdb.employees;
+SELECT DISTINCT first_name, last_name FROM employees;

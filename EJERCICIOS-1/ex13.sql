@@ -2,4 +2,4 @@
 # registros retornados e ordene pelo campo número (emp_no) de forma ascendente.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees order by emp_no asc limit 100;
+SELECT * FROM employees order by emp_no asc limit 100;

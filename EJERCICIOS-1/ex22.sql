@@ -2,4 +2,5 @@
 # contenha a combinação de caracteres 'arvi'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name LIKE '%arvi%';
+SELECT * FROM employees 
+where first_name LIKE '%arvi%';

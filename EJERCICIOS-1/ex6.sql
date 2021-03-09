@@ -2,4 +2,5 @@
 # campo first_name de forma ascendente.
 
 USE psdb; # la selecciono
-SELECT DISTINCT first_name FROM psdb.employees order by first_name asc;
+SELECT DISTINCT first_name FROM employees 
+order by first_name asc;

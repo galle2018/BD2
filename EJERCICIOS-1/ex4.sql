@@ -2,4 +2,5 @@
 # campo nome (first_name).
 
 USE psdb; # la selecciono
-SELECT DISTINCT first_name FROM psdb.employees order by first_name;
+SELECT DISTINCT first_name FROM employees 
+order by first_name;

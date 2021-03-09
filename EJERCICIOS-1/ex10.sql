@@ -3,4 +3,5 @@
 # ascendente.
 
 USE psdb; # la selecciono
-SELECT DISTINCT first_name, last_name FROM psdb.employees order by first_name asc, last_name asc;
+SELECT DISTINCT first_name, last_name FROM employees 
+order by first_name asc, last_name asc;

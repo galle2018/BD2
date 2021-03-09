@@ -2,4 +2,7 @@
 # contenha no final a combinação de caracteres 'zette' e que o sexo (gender) seja igual a 'M'.
 
 USE psdb; # la selecciono
-SELECT * FROM psdb.employees where first_name LIKE '%zette'and gender='M';
+SELECT * FROM employees 
+where 
+first_name LIKE '%zette'
+and gender='M';
