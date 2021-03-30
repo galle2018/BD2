@@ -2,7 +2,9 @@
 # ordem alfabética pelo nome do continente.
 
 use world;
-SELECT country.Continent, COUNT(country.Continent) 
+SELECT CAST(country.Continent as char)AS Continent, COUNT(country.Continent) 
 AS Total FROM  country
 GROUP BY country.Continent 
-ORDER BY 1;
+ORDER by 1; 
+
+desc country #muestra el tipo de datos, era num, entonces se convirtio el atributo
